@@ -3,7 +3,7 @@ import pickle
 import numpy as np
 import torch
 import torch.utils.data
-from custom.model import LSTMClassifier
+from model import LSTMClassifier
 from utils import review_to_words, convert_and_pad
 
 def model_fn(model_dir):
